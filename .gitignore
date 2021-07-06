@@ -1,0 +1,17 @@
+/target
+/checkouts
+/src/gen
+/log
+
+pom.xml
+pom.xml.asc
+*.iml
+*.jar
+*.log
+config.edn
+kanban.md
+.cpcache
+.idea
+.lein-*
+.nrepl-*
+.DS_Store

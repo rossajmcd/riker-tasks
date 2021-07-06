@@ -1,0 +1,12 @@
+{
+  :secrets #include #join [#env HOME "/.your-secrets-file.edn"]
+
+  :api-auth-token #profile {:default #ref [:secrets :auth-token]}
+
+  :todoist-uri "https://api.todoist.com/rest/v1/"
+
+  :task-list-filters [
+    {:list-name "Personal tasks" :resource "tasks" :filter "p1 & @Personal"}
+    {:list-name "Work tasks" :resource "tasks" :filter "p1 & @Work"}
+  ]
+}
