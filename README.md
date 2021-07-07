@@ -14,7 +14,11 @@ Currently supported portable formats:
 
 * Markdown (including Kanban plugin compatible)
 
-Currently makes an assumption that using filters provides a nice general way to answer to many usecases
+Currently makes an assumption that using filters provides a nice general way to answer to many usecases.
+
+This is read only to give you a way to view your tasks in your favourite tool(s).
+
+No current strategy out of the box for automation but this is something I'm looking into. Presumably could be hooked into tools or set to run on a chron.
 
 This is written in Clojure and distributed as a jar file ready for running on Java. Only MacOS and Linux tested so far.
 
